@@ -1,0 +1,27 @@
+# FLARS — Flower & Party Booking app
+
+FLARS is a Flutter-based Flower & Party Booking app: order bouquets, custom designs, pay online (Razorpay/UPI), upload/scan designs, and track delivery in real time.
+
+## Key features
+- User auth (OTP / Email)
+- Browse categories (Bouquets, Garlands, Balloons, Party decor)
+- Custom design upload (photo/drawing) with notes
+- Cart, checkout & payments (Razorpay recommended)
+- Order tracking & notifications
+- Admin panel for product, order & price management
+
+## Tech stack
+- Flutter (Android & iOS)
+- Firebase (Auth, Firestore, Storage, FCM)
+- Razorpay (payments)
+- CI: GitHub Actions (build & publish APK)
+
+## Quick start (development)
+1. Clone: `git clone https://github.com/adinageshsaraswathi15-prog/flars.git`
+2. Add Firebase config: place `google-services.json` in `android/app/`
+3. Install deps: `flutter pub get`
+4. Run: `flutter run`
+
+## Notes
+- Do not commit keystore or secret keys to the repo.
+- For a signed release APK, generate a keystore and configure `android/key.properties`.
